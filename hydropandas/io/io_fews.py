@@ -457,7 +457,7 @@ def write_pi_xml(obs_coll, fname, timezone=1.0, version="1.24"):
     XSI = r"http://www.w3.org/2001/XMLSchema-instance"
     schemaLocation = (
         r"http://fews.wldelft.nl/schemas/version1.0"
-        r"/Pi-schemas/pi_timeseries.xsd"
+        r"/pi-schemas/pi_timeseries.xsd"
     )
     timeseriesline = ('<TimeSeries xmlns="{NS}" xmlns:xsi="{XSI}" '
                       'xsi:schemaLocation="{NS} {schema}" version="{version}" '
